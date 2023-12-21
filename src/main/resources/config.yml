@@ -1,0 +1,76 @@
+
+
+#  PLAYERLIST - TABLIST ----------------------------------------------
+AnimatedTablist: true
+
+FirstTablistHeader: "<color:#78ffb5>DEIN NETWORK</color>"
+FirstTablistPlayerName: "%prefix% <dark_gray>|</dark_gray> %playername% %afk% %registered%"
+FirstTablistFooter: "<color:#ff0004>Rutils v7.0 - by TheBjoRedCraft</color>"
+
+SecondTablistHeader: "<color:#78ffb5>DEIN NETWORK</color>"
+SecondTablistPlayerName: "%prefix% <dark_gray>|</dark_gray> %playername% %afk% %registered%"
+SecondTablistFooter: "<color:#ff0004>Deine Infos!</color>"
+
+SwitchTabList: 600
+
+UpdateTabList: true
+#IN TICKS - 20 Ticks = 1 sec
+Repeat: 20
+
+# CHATFORMAT --------------------------------------------------------
+
+#PLACEHOLDER:
+#%luckperms_prefix% = Gives the Prefix of the Player
+#%playername% = Gives the Playername of the Player
+#%message% = Returns the Message
+#%afk% - If the player is afk, is it here
+
+ChatFormat: "%luckperms_prefix% <dark_gray>|</dark_gray> %playername% <dark_gray>>></dark_gray> %message%"
+
+# AFK ---------------------------------------------------------------
+
+#PLACEHOLDER:
+#%luckperms_prefix% = Gives the Prefix of the Player
+#%playername% = Gives the Playername of the Player
+
+AfkPermisson: "lu.afk"
+
+#on:
+Chatmessageon: "%playername% ist nun AFK"
+TabFormaton: "<dark_gray>[AFK]"
+
+#off:
+Chatmessageoff: "%playername% ist nun nicht mehr AFK"
+TabFormatoff: ""
+
+# Registered --------------------------------------------------------
+
+RegPermisson: "lu.registered"
+RegFormatOn: "<green>✓"
+RegFormatOff: ""
+
+# Messages ----------------------------------------------------------
+# You can use MiniMessage
+PLAYER_NOT_FOUND_DE: "<bold><red>Der Spieler wurde nicht gefunden!"
+PLAYER_NOT_FOUND_EN: "<bold><red>The player has been not found!"
+
+LANGUAGE_CHANGED_DE_DE: "<bold>Deine Sprache wurde zu <red>Deutsch <reset><bold> geändert!"
+LANGUAGE_CHANGED_DE_EN: "<bold>Your language has been changed to <red>German <reset><bold>!"
+
+LANGUAGE_CHANGED_EN_DE: "<bold>Deine Sprache wurde zu <red>Englisch <reset><bold> geändert!"
+LANGUAGE_CHANGED_EN_EN: "<bold>Your language has been changed to <red>English <reset><bold>!"
+
+NOT_A_PLAYER_DE: "<bold><red>Du musst ein Spieler sein!"
+NOT_A_PLAYER_EN: "<bold><red>You must be a player!"
+
+LANGUAGE_COMMAND_USAGE_DE: "<bold><red>Falsche Argumente! /language - Wechselt die Sprache zwischen Deutsch und Englisch"
+LANGUAGE_COMMAND_USAGE_EN: "<bold><red>Incorrect Usage! /language - Toggle the language betweet German and English."
+
+CANNOT_ATTACK_PLAYER_DE: "<bold><red>Du kannst nicht kaempfen!"
+CANNOT_ATTACK_PLAYER_EN: "<bold><red>You are not allowed to fight!"
+
+CANNOT_BUILD_DE: "<bold><red>Du kannst nicht bauen!"
+CANNOT_BUILD_EN: "<bold><red>You are not allowed to build!"
+
+CANNOT_DESTROY_DE: "<bold><red>Du kannst nicht abbauen!"
+CANNOT_DESTROY_EN: "<bold><red>You are not allowed to break!"
