@@ -1,4 +1,4 @@
-package dev.thebjoredcraft.rutils.playistration.chat;
+package dev.thebjoredcraft.rutils.game.chat;
 
 import dev.thebjoredcraft.rutils.Rutils;
 

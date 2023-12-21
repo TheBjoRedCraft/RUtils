@@ -1,4 +1,4 @@
-package dev.thebjoredcraft.rutils.playistration.afk;
+package dev.thebjoredcraft.rutils.game.afk;
 
 import dev.thebjoredcraft.rutils.Rutils;
 

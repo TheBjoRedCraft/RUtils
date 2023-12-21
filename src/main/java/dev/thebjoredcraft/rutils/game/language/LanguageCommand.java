@@ -1,4 +1,4 @@
-package dev.thebjoredcraft.rutils.playistration.language;
+package dev.thebjoredcraft.rutils.game.language;
 
 import dev.thebjoredcraft.rutils.main.Message;
 import dev.thebjoredcraft.rutils.main.PlayerData;

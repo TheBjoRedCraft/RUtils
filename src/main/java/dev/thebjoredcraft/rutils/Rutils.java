@@ -1,7 +1,7 @@
 package dev.thebjoredcraft.rutils;
 
 import dev.thebjoredcraft.rutils.main.EventManager;
-import dev.thebjoredcraft.rutils.playistration.tab.TabListManager;
+import dev.thebjoredcraft.rutils.game.tab.TabListManager;
 
 import dev.thebjoredcraft.rutils.team.administration.restart.RestartCommand;
 import org.bukkit.Bukkit;

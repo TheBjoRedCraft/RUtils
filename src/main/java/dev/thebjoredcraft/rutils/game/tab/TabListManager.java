@@ -1,4 +1,4 @@
-package dev.thebjoredcraft.rutils.playistration.tab;
+package dev.thebjoredcraft.rutils.game.tab;
 
 import dev.thebjoredcraft.rutils.Rutils;
 

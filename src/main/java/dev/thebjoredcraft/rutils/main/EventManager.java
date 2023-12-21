@@ -1,6 +1,6 @@
 package dev.thebjoredcraft.rutils.main;
 
-import dev.thebjoredcraft.rutils.playistration.tab.TabListManager;
+import dev.thebjoredcraft.rutils.game.tab.TabListManager;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
