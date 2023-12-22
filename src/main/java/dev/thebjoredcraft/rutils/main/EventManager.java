@@ -2,6 +2,7 @@ package dev.thebjoredcraft.rutils.main;
 
 import dev.thebjoredcraft.rutils.game.tab.TabListManager;
 
+import dev.thebjoredcraft.rutils.main.access.AccessManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -11,6 +12,7 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
+import org.bukkit.event.player.PlayerTeleportEvent;
 
 public class EventManager implements Listener {
     @EventHandler
@@ -58,6 +60,18 @@ public class EventManager implements Listener {
         if(PlayerData.getB(event.getPlayer(), PlayerData.muted)){
             event.getPlayer().sendMessage("muted");
             event.setCancelled(true);
+        }
+    }
+    @EventHandler
+    public void onWorldChange(PlayerTeleportEvent event){
+        Player target = event.getPlayer();
+        if(event.getFrom().getWorld() != event.getTo().getWorld()) {
+            if (!target.hasPermission("access.worlds." + event.getTo().getWorld().getName())) {
+                event.setCancelled(true);
+                AccessManager.denied(target);
+            } else {
+                AccessManager.allowed(target);
+            }
         }
     }
 }
