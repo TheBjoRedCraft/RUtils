@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class LanguageCommand implements CommandExecutor {
     @Override
-    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) throws NullPointerException{
+    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args){
         if(sender instanceof Player player) {
             if (args.length == 1) {
                 Player target = Bukkit.getPlayer(args[0]);
@@ -41,7 +41,6 @@ public class LanguageCommand implements CommandExecutor {
             }
         }else{
             sender.sendMessage(Message.NOT_A_PLAYER_DE.get());
-            sender.sendMessage(Message.NOT_A_PLAYER_EN.get());
         }
         return false;
     }

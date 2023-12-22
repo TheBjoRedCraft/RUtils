@@ -16,6 +16,9 @@ public class EventManager implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent event){
         TabListManager.updateTablist();
+        if(PlayerData.getB(event.getPlayer(), PlayerData.de) == null){
+            PlayerData.set(event.getPlayer(), PlayerData.de, true);
+        }
     }
 
     @EventHandler

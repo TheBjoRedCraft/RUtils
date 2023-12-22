@@ -1,15 +1,14 @@
 
-
 #  PLAYERLIST - TABLIST ----------------------------------------------
 AnimatedTablist: true
 
-FirstTablistHeader: "<color:#78ffb5>DEIN NETWORK</color>"
+FirstTablistHeader: "<color:#3b92d1>DEIN SERVER</color>"
 FirstTablistPlayerName: "%prefix% <dark_gray>|</dark_gray> %playername% %afk% %registered%"
-FirstTablistFooter: "<color:#ff0004>Rutils v7.0 - by TheBjoRedCraft</color>"
+FirstTablistFooter: "<color:#40d1db>Rutils v7.0 - by TheBjoRedCraft</color>"
 
-SecondTablistHeader: "<color:#78ffb5>DEIN NETWORK</color>"
+SecondTablistHeader: "<color:#3b92d1>DEIN SERVER</color>"
 SecondTablistPlayerName: "%prefix% <dark_gray>|</dark_gray> %playername% %afk% %registered%"
-SecondTablistFooter: "<color:#ff0004>Deine Infos!</color>"
+SecondTablistFooter: "<color:#40d1db>deine.website.de</color>"
 
 SwitchTabList: 600
 
@@ -74,3 +73,18 @@ CANNOT_BUILD_EN: "<bold><red>You are not allowed to build!"
 
 CANNOT_DESTROY_DE: "<bold><red>Du kannst nicht abbauen!"
 CANNOT_DESTROY_EN: "<bold><red>You are not allowed to break!"
+
+RESTART_IN_DE: "<color:#3b92d1>Der Server startet in <color:#40d1db>%time% <color:#3b92d1>neu!"
+RESTART_IN_EN: "<color:#3b92d1>The Server is restarting in <color:#40d1db>%time%"
+
+STOP_IN_DE: "<color:#3b92d1>Der Server stopt in <color:#40d1db>%time%!"
+STOP_IN_EN: "<color:#3b92d1>The Server is stopping in <color:#40d1db>%time%"
+
+STOP_MESSAGE_DE: "<color:#3b92d1>Der Server wird herruntergefahren..."
+STOP_MESSAGE_EN: "<color:#3b92d1>The Server is shutting down..."
+
+RESTART_MESSAGE_DE: "<color:#3b92d1>Der Server startet neu..."
+RESTART_MESSAGE_EN: "<color:#3b92d1>The Server is restarting...."
+
+NUMBERFORMAT_ERROR_DE: "<color:#e96319>Numberformat Error!"
+NUMBERFORMAT_ERROR_EN: "<color:#e96319>Numberformat Error!"

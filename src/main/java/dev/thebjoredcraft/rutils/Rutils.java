@@ -1,9 +1,11 @@
 package dev.thebjoredcraft.rutils;
 
+import dev.thebjoredcraft.rutils.game.language.LanguageCommand;
 import dev.thebjoredcraft.rutils.main.EventManager;
 import dev.thebjoredcraft.rutils.game.tab.TabListManager;
 
 import dev.thebjoredcraft.rutils.team.administration.restart.RestartCommand;
+import dev.thebjoredcraft.rutils.team.administration.stop.StopServerCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.PermissionAttachment;
@@ -22,6 +24,7 @@ public final class Rutils extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
         regCommands();
         regListeners();
 
@@ -32,6 +35,8 @@ public final class Rutils extends JavaPlugin {
     }
     public void regCommands(){
         getCommand("restart").setExecutor(new RestartCommand());
+        getCommand("stop").setExecutor(new StopServerCommand());
+        getCommand("language").setExecutor(new LanguageCommand());
 
     }
     public void regListeners(){
@@ -40,6 +45,7 @@ public final class Rutils extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        saveDefaultConfig();
         TabListManager.stopTabListUpdate();
         // Plugin shutdown logic
     }

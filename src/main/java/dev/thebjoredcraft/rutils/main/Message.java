@@ -27,8 +27,17 @@ public enum Message {
     CANNOT_BUILD_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("CANNOT_BUILD_DE", ""))),
     CANNOT_BUILD_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("CANNOT_BUILD_EN", ""))),
 
+    NUMBERFORMAT_ERROR_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("NUMBERFORMAT_ERROR_DE", ""))),
+    NUMBERFORMAT_ERROR_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("NUMBERFORMAT_ERROR_EN", ""))),
+
     CANNOT_DESTROY_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("CANNOT_DESTROY_DE", ""))),
-    CANNOT_DESTROY_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("CANNOT_DESTROY_EN", "")));
+    CANNOT_DESTROY_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("CANNOT_DESTROY_EN", ""))),
+
+    STOP_MESSAGE_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("STOP_MESSAGE_DE", ""))),
+    STOP_MESSAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("STOP_MESSAGE_EN", ""))),
+
+    RESTART_MESSAGE_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RESTART_MESSAGE_DE", ""))),
+    RESTART_MESSAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RESTART_MESSAGE_EN", "")));
 
     private final Component msg;
 
