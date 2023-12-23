@@ -1,5 +1,4 @@
 package dev.thebjoredcraft.rutils.game.language;
-
 import dev.thebjoredcraft.rutils.main.Message;
 import dev.thebjoredcraft.rutils.main.PlayerData;
 import org.bukkit.Bukkit;

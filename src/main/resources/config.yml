@@ -4,7 +4,7 @@ AnimatedTablist: true
 
 FirstTablistHeader: "<color:#3b92d1>DEIN SERVER</color>"
 FirstTablistPlayerName: "%prefix% <dark_gray>|</dark_gray> %playername% %afk% %registered%"
-FirstTablistFooter: "<color:#40d1db>Rutils v7.0 - by TheBjoRedCraft</color>"
+FirstTablistFooter: "<color:#40d1db>Rutils ${version} - by TheBjoRedCraft</color>"
 
 SecondTablistHeader: "<color:#3b92d1>DEIN SERVER</color>"
 SecondTablistPlayerName: "%prefix% <dark_gray>|</dark_gray> %playername% %afk% %registered%"
@@ -53,17 +53,17 @@ RegFormatOff: ""
 PLAYER_NOT_FOUND_DE: "<bold><red>Der Spieler wurde nicht gefunden!"
 PLAYER_NOT_FOUND_EN: "<bold><red>The player has been not found!"
 
-LANGUAGE_CHANGED_DE_DE: "<bold>Deine Sprache wurde zu <red>Deutsch <reset><bold> geändert!"
+LANGUAGE_CHANGED_DE_DE: "<bold>Deine Sprache wurde zu <red>Deutsch <reset><bold>geändert!"
 LANGUAGE_CHANGED_DE_EN: "<bold>Your language has been changed to <red>German <reset><bold>!"
 
-LANGUAGE_CHANGED_EN_DE: "<bold>Deine Sprache wurde zu <red>Englisch <reset><bold> geändert!"
+LANGUAGE_CHANGED_EN_DE: "<bold>Deine Sprache wurde zu <red>Englisch <reset><bold>geändert!"
 LANGUAGE_CHANGED_EN_EN: "<bold>Your language has been changed to <red>English <reset><bold>!"
 
 NOT_A_PLAYER_DE: "<bold><red>Du musst ein Spieler sein!"
 NOT_A_PLAYER_EN: "<bold><red>You must be a player!"
 
 LANGUAGE_COMMAND_USAGE_DE: "<bold><red>Falsche Argumente! /language - Wechselt die Sprache zwischen Deutsch und Englisch"
-LANGUAGE_COMMAND_USAGE_EN: "<bold><red>Incorrect Usage! /language - Toggle the language betweet German and English."
+LANGUAGE_COMMAND_USAGE_EN: "<bold><red>Incorrect Usage! /language - Toggle the language between German and English."
 
 CANNOT_ATTACK_PLAYER_DE: "<bold><red>Du kannst nicht kaempfen!"
 CANNOT_ATTACK_PLAYER_EN: "<bold><red>You are not allowed to fight!"
@@ -88,3 +88,30 @@ RESTART_MESSAGE_EN: "<color:#3b92d1>The Server is restarting...."
 
 NUMBERFORMAT_ERROR_DE: "<color:#e96319>Numberformat Error!"
 NUMBERFORMAT_ERROR_EN: "<color:#e96319>Numberformat Error!"
+
+YOUR_GAMEMODE_CHANGED_TO_CREATIVE_DE: "<color:#3b92d1>Dein Spielmodus wurde zu <color:#40d1db>Creativ <color:#3b92d1>geändert."
+YOUR_GAMEMODE_CHANGED_TO_CREATIVE_EN: "<color:#3b92d1>Your Game Mode has been changed to <color:#40d1db>Creative"
+
+YOUR_GAMEMODE_CHANGED_TO_SURVIVAL_DE: "<color:#3b92d1>Dein Spielmodus wurde zu <color:#40d1db>Überleben <color:#3b92d1>geändert."
+YOUR_GAMEMODE_CHANGED_TO_SURVIVAL_EN: "<color:#3b92d1>Your Game Mode has been changed to <color:#40d1db>Survival"
+
+YOUR_GAMEMODE_CHANGED_TO_SPECTATOR_DE: "<color:#3b92d1>Dein Spielmodus wurde zu <color:#40d1db>Zuschauer <color:#3b92d1>geändert."
+YOUR_GAMEMODE_CHANGED_TO_SPECTATOR_EN: "<color:#3b92d1>Your Game Mode has been changed to <color:#40d1db>Spectator"
+
+YOUR_GAMEMODE_CHANGED_TO_ADVENTURE_DE: "<color:#3b92d1>Dein Spielmodus wurde zu <color:#40d1db>Abenteuer <color:#3b92d1>geändert."
+YOUR_GAMEMODE_CHANGED_TO_ADVENTURE_EN: "<color:#3b92d1>Your Game Mode has been changed to <color:#40d1db>Adventure"
+
+NO_PERMISSION_DE: "<color:#e96319>Du hast keine Rechte dies zu tun!"
+NO_PERMISSION_EN: "<color:#e96319>You dont have permission to do that!"
+
+GAMEMODE_COMMAND_USAGE_DE: "<bold><red>Falsche Argumente! /gamemode <gamemode> | /gamemode <gamemode> <player> - Wechselt den Spielmodus eines Spielers."
+GAMEMODE_COMMAND_USAGE_EN: "<bold><red>Incorrect Usage! /gamemode <gamemode> | /gamemode <gamemode> <player> - Changes the Game Mode of a player."
+
+INVENTORY_CLEARED_DE: "<color:#3b92d1>Dein Inventar wurde geleert!"
+INVENTORY_CLEARED_EN: "<color:#3b92d1>Your inventory hab been cleared!"
+
+RENAME_COMMAND_USAGE_DE: "<bold><red>Falsche Argumente! /rename <neuer name>| /rename <neuer name> <player> - Setzt den Namen eines Items eines Spielers."
+RENAME_COMMAND_USAGE_EN: "<bold><red>Incorrect Usage! /rename <neuer name>| /rename <neuer name> <player> - Set the name of an item of a player."
+
+ITEM_RENAMED_DE: "<color:#3b92d1>Das Item wurde umbenannt!"
+ITEM_RENAMED_EN: "<color:#3b92d1>The item name has been changed!"

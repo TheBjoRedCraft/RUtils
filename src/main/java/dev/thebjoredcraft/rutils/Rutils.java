@@ -1,9 +1,12 @@
 package dev.thebjoredcraft.rutils;
 
 import dev.thebjoredcraft.rutils.game.language.LanguageCommand;
-import dev.thebjoredcraft.rutils.main.EventManager;
 import dev.thebjoredcraft.rutils.game.tab.TabListManager;
 
+import dev.thebjoredcraft.rutils.main.EventManager;
+import dev.thebjoredcraft.rutils.team.ClearCommand;
+import dev.thebjoredcraft.rutils.team.GameModeCommand;
+import dev.thebjoredcraft.rutils.team.ReNameItemCommand;
 import dev.thebjoredcraft.rutils.team.administration.restart.RestartCommand;
 import dev.thebjoredcraft.rutils.team.administration.stop.StopServerCommand;
 import org.bukkit.Bukkit;
@@ -37,7 +40,9 @@ public final class Rutils extends JavaPlugin {
         getCommand("restart").setExecutor(new RestartCommand());
         getCommand("stop").setExecutor(new StopServerCommand());
         getCommand("language").setExecutor(new LanguageCommand());
-
+        getCommand("gamemode").setExecutor(new GameModeCommand());
+        getCommand("clear").setExecutor(new ClearCommand());
+        getCommand("rename").setExecutor(new ReNameItemCommand());
     }
     public void regListeners(){
         Bukkit.getPluginManager().registerEvents(new EventManager(), this);

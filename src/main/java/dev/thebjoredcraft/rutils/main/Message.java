@@ -37,7 +37,36 @@ public enum Message {
     STOP_MESSAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("STOP_MESSAGE_EN", ""))),
 
     RESTART_MESSAGE_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RESTART_MESSAGE_DE", ""))),
-    RESTART_MESSAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RESTART_MESSAGE_EN", "")));
+    RESTART_MESSAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RESTART_MESSAGE_EN", ""))),
+
+    YOUR_GAMEMODE_CHANGED_TO_CREATIVE_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("YOUR_GAMEMODE_CHANGED_TO_CREATIVE_DE", ""))),
+    YOUR_GAMEMODE_CHANGED_TO_CREATIVE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("YOUR_GAMEMODE_CHANGED_TO_CREATIVE_EN", ""))),
+
+    YOUR_GAMEMODE_CHANGED_TO_SURVIVAL_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("YOUR_GAMEMODE_CHANGED_TO_SURVIVAL_DE", ""))),
+    YOUR_GAMEMODE_CHANGED_TO_SURVIVAL_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("YOUR_GAMEMODE_CHANGED_TO_SURVIVAL_EN", ""))),
+
+    YOUR_GAMEMODE_CHANGED_TO_SPECTATOR_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("YOUR_GAMEMODE_CHANGED_TO_SPECTATOR_DE", ""))),
+    YOUR_GAMEMODE_CHANGED_TO_SPECTATOR_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("YOUR_GAMEMODE_CHANGED_TO_SPECTATOR_EN", ""))),
+
+    YOUR_GAMEMODE_CHANGED_TO_ADVENTURE_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("YOUR_GAMEMODE_CHANGED_TO_ADVENTURE_DE", ""))),
+    YOUR_GAMEMODE_CHANGED_TO_ADVENTURE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("YOUR_GAMEMODE_CHANGED_TO_ADVENTURE_EN", ""))),
+
+    NO_PERMISSION_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("NO_PERMISSION_DE", ""))),
+    NO_PERMISSION_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("NO_PERMISSION_EN", ""))),
+
+    GAMEMODE_COMMAND_USAGE_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("GAMEMODE_COMMAND_USAGE_DE", ""))),
+    GAMEMODE_COMMAND_USAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("GAMEMODE_COMMAND_USAGE_EN", ""))),
+
+    INVENTORY_CLEARED_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("INVENTORY_CLEARED_DE", ""))),
+    INVENTORY_CLEARED_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("INVENTORY_CLEARED_EN", ""))),
+
+    RENAME_COMMAND_USAGE_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RENAME_COMMAND_USAGE_DE", ""))),
+    RENAME_COMMAND_USAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RENAME_COMMAND_USAGE_EN", ""))),
+
+    ITEM_RENAMED_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("ITEM_RENAMED_DE", ""))),
+    ITEM_RENAMED_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("ITEM_RENAMED_EN", "")));
+
+
 
     private final Component msg;
 

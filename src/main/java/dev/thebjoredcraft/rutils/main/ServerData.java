@@ -1,6 +1,5 @@
 package dev.thebjoredcraft.rutils.main;
 
-import dev.thebjoredcraft.rutils.Rutils;
 
 public enum ServerData {
     FILLER(true);
