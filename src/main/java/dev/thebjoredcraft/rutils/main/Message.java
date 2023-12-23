@@ -64,7 +64,10 @@ public enum Message {
     RENAME_COMMAND_USAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RENAME_COMMAND_USAGE_EN", ""))),
 
     ITEM_RENAMED_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("ITEM_RENAMED_DE", ""))),
-    ITEM_RENAMED_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("ITEM_RENAMED_EN", "")));
+    ITEM_RENAMED_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("ITEM_RENAMED_EN", ""))),
+
+    RELOAD_MESSAGE_DE(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RELOAD_MESSAGE_DE", ""))),
+    RELOAD_MESSAGE_EN(MiniMessage.miniMessage().deserialize(Rutils.getInstance().getConfig().getString("RELOAD_MESSAGE_EN", "")));
 
 
 

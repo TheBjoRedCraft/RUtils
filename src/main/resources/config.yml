@@ -4,7 +4,7 @@ AnimatedTablist: true
 
 FirstTablistHeader: "<color:#3b92d1>DEIN SERVER</color>"
 FirstTablistPlayerName: "%prefix% <dark_gray>|</dark_gray> %playername% %afk% %registered%"
-FirstTablistFooter: "<color:#40d1db>Rutils ${version} - by TheBjoRedCraft</color>"
+FirstTablistFooter: "<color:#40d1db>Rutils 1.1 - by TheBjoRedCraft</color>"
 
 SecondTablistHeader: "<color:#3b92d1>DEIN SERVER</color>"
 SecondTablistPlayerName: "%prefix% <dark_gray>|</dark_gray> %playername% %afk% %registered%"
@@ -115,3 +115,13 @@ RENAME_COMMAND_USAGE_EN: "<bold><red>Incorrect Usage! /rename <neuer name>| /ren
 
 ITEM_RENAMED_DE: "<color:#3b92d1>Das Item wurde umbenannt!"
 ITEM_RENAMED_EN: "<color:#3b92d1>The item name has been changed!"
+
+RELOAD_MESSAGE_DE: "<color:#3b92d1>Der Server reloaded... Dies kann zu Fehlern in Plugins führen!"
+RELOAD_MESSAGE_EN: "<color:#3b92d1>The Server reloads... That can damage Plugins"
+
+# PLAYER INFO GUI
+
+PLAYER_INFO_GUI_NAME_DE: "<color:#3b92d1>Online Spieler"
+PLAYER_INFO_GUI_NAME_EN: "<color:#3b92d1>Online Players"
+
+PLAYER_INFO_GUI_TEXT_COLOR: "#3b92d1"
